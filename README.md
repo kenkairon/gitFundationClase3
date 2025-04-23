@@ -237,7 +237,7 @@ Educativo y de Aprendizaje Personal
 
     Enterprise    | GitHub Enterprise          | ✅ Pago
 
-15 ¿Que tipo de visibilidad tiene los repositorios?🔍 Tipos de visibilidad de los repositorios en GitHub
+15. ¿Que tipo de visibilidad tiene los repositorios?🔍 Tipos de visibilidad de los repositorios en GitHub
     ```bash
     Tipo de Visibilidad | Descripción                                         | ¿Quién puede ver el repositorio?
     Público             | Repositorio visible para todos en internet     | Cualquiera (no necesita cuenta para verlo)
