@@ -243,3 +243,19 @@ Educativo y de Aprendizaje Personal
     Público             | Repositorio visible para todos en internet     | Cualquiera (no necesita cuenta para verlo)
     Privado  | Solo accesible para ti y las personas o equipos que tú invites | Solo colaboradores autorizados
     Interno 🔒 (solo en organizaciones de empresa) | Visible solo para miembros de la organización (requiere plan Enterprise) | Solo miembros de la organización en GitHub
+
+16. 🆓 GitHub Free – Características principales
+    ```bash
+    Categoría | Característica
+    💻 Repositorios | Repos ilimitados (✔ públicos y ✔ privados)
+    👥 Colaboradores | Hasta 3 colaboradores privados por repositorio (GitHub Free individual)
+    🧪 GitHub Actions | ✔ 2,000 minutos por mes (CI/CD gratuitos)
+    🗃️ Almacenamiento | 500 MB de almacenamiento de GitHub Packages
+    🔐 Seguridad básica | Alertas de vulnerabilidades (Dependabot)
+    🔍 Visibilidad | Repositorios pueden ser públicos o privados
+    🌐 GitHub Pages | ✔ Incluido (para alojar sitios estáticos)
+    📈 Community insights | Acceso a issues, pull requests, foros, y GitHub Discussions
+    🔧 Herramientas de desarrollo | Soporte para integración con API, GitHub CLI, y extensiones
+    📂 Branch protection | ✔ Configurable
+
+17. GitHub Pro Caracteristica
