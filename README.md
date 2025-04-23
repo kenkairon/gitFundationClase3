@@ -168,14 +168,14 @@ Educativo y de Aprendizaje Personal
 11. 🧠 Resumen rápido en tabla de acciones y roles
     ```bash
         Acción                                 Owner    Admin Team   Member   Billing
-    -------------------------------------  -------  -----------  -------  --------
-    Ver todos los repositorios             ✅        ❌            ❌       ❌
-    Administrar la organización            ✅        ❌            ❌       ❌
-    Administrar equipos                    ✅        ✅            ❌       ❌
-    Invitar/eliminar miembros              ✅        ❌            ❌       ❌
-    Ver y pagar facturación                ✅        ❌            ❌       ✅
-    Modificar roles de otros miembros      ✅        ❌            ❌       ❌
-    Gestionar repositorios                 ✅        ✅*           ✅*      ❌
+    -------------------------------------       -------  -----------  -------  --------
+    Ver todos los repositorios                   ✅        ❌            ❌       ❌
+    Administrar la organización                  ✅        ❌            ❌       ❌
+    Administrar equipos                          ✅        ✅            ❌       ❌
+    Invitar/eliminar miembros                    ✅        ❌            ❌       ❌
+    Ver y pagar facturación                      ✅        ❌            ❌       ✅
+    Modificar roles de otros miembros            ✅        ❌            ❌       ❌
+    Gestionar repositorios                       ✅        ✅*           ✅*      ❌
 
 12. ✅ Cuentas Gratuitas:
     ```bash
@@ -192,7 +192,7 @@ Educativo y de Aprendizaje Personal
 
 14. 🧠 Resumen visual:
     ```bash
-        Cuenta        | Plan                       | ¿Pago?
+        Cuenta    | Plan                       | ¿Pago?
     ------------- | -------------------------- | ---------
     Personal      | GitHub Free                | ❌ Gratis
                   | GitHub Pro                 | ✅ Pago
