@@ -125,3 +125,79 @@ Educativo y de Aprendizaje Personal
     7     | Asigna permisos (Read, Write, Admin)
     8     | Enviar invitación
     9     | El colaborador acepta la invitación
+
+9. Roles en GitHub y sus permisos
+    ```bash
+        Acción                                          Read     Write    Maintainer   Admin
+    ---------------------------------------------  -------  -------  -----------  -------
+    Ver el código del repositorio                   ✅        ✅        ✅            ✅
+    Clonar el repositorio                           ✅        ✅        ✅            ✅
+    Crear issues (reportes de problemas)            ✅        ✅        ✅            ✅
+    Comentar en issues y pull requests              ✅        ✅        ✅            ✅
+    Crear ramas                                     ❌        ✅        ✅            ✅
+    Enviar commits a ramas                          ❌        ✅        ✅            ✅
+    Crear y cerrar pull requests                    ❌        ✅        ✅            ✅
+    Etiquetar versiones (releases)                  ❌        ✅        ✅            ✅
+    Mergear pull requests                           ❌        ✅        ✅            ✅
+    Eliminar ramas                                  ❌        ✅        ✅            ✅
+    Gestionar proyectos (projects y wikis)          ❌        ✅        ✅            ✅
+    Gestionar issues/pull requests de otros         ❌        ❌        ✅            ✅
+    Invitar colaboradores                           ❌        ❌        ❌            ✅
+    Cambiar visibilidad del repositorio             ❌        ❌        ❌            ✅
+    Eliminar el repositorio                         ❌        ❌        ❌            ✅
+    Gestionar permisos y configuración avanzada     ❌        ❌        ❌            ✅
+
+10. 🏢 Roles en una organización de GitHub
+    ```bash
+        Rol                  Puede hacer                                                                      No puede hacer
+    -------------------  --------------------------------------------------------------------------------- ------------------------------------------
+    Propietario (Owner)  - Acceso total a todos los repositorios                                          Nada restringido
+                        - Administrar miembros, equipos, repos, settings, billing                        
+                        - Invitar o eliminar miembros                                                    
+                        - Cambiar roles                                                                  
+
+    Administrador de Team- Administrar un equipo específico (agregar/quitar miembros)                     - Cambiar settings globales de la organización
+                        - Gestionar repositorios asignados al equipo                                     - Ver información financiera o de billing
+                        - Asignar roles dentro del equipo                                                
+
+    Miembro              - Acceso solo a los repositorios y equipos asignados                             - No puede modificar configuraciones de la organización
+                        - Puede tener roles específicos dentro de cada repo (Read, Write, Admin)         - No puede invitar ni eliminar miembros globales
+
+    Facturación (Billing) - Administrar suscripciones y métodos de pago                                   - No tiene acceso a repositorios ni a la administración de equipos
+
+11. 🧠 Resumen rápido en tabla de acciones y roles
+    ```bash
+        Acción                                 Owner    Admin Team   Member   Billing
+    -------------------------------------  -------  -----------  -------  --------
+    Ver todos los repositorios             ✅        ❌            ❌       ❌
+    Administrar la organización            ✅        ❌            ❌       ❌
+    Administrar equipos                    ✅        ✅            ❌       ❌
+    Invitar/eliminar miembros              ✅        ❌            ❌       ❌
+    Ver y pagar facturación                ✅        ❌            ❌       ✅
+    Modificar roles de otros miembros      ✅        ❌            ❌       ❌
+    Gestionar repositorios                 ✅        ✅*           ✅*      ❌
+
+12. ✅ Cuentas Gratuitas:
+    ```bash
+    . Personal → GitHub Free
+
+    . Organization → GitHub Free for Organizations
+
+13. 💰 Cuentas de Pago:
+    ```bash
+        Cuenta   | Plan de Pago          | Descripción breve
+    Personal     | 🧩 GitHub Pro        | Más funciones para desarrolladores individuales
+    Organization | 👥 GitHub Team       | Colaboración profesional en equipos con más control
+    Enterprise   | 🏢 GitHub Enterprise | Soluciones avanzadas para grandes empresas
+
+14. 🧠 Resumen visual:
+    ```bash
+        Cuenta        | Plan                       | ¿Pago?
+    ------------- | -------------------------- | ---------
+    Personal      | GitHub Free                | ❌ Gratis
+                  | GitHub Pro                 | ✅ Pago
+
+    Organization  | GitHub Free for Orgs       | ❌ Gratis
+                  | GitHub Team                | ✅ Pago
+
+    Enterprise    | GitHub Enterprise          | ✅ Pago
